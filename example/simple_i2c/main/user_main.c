@@ -151,7 +151,7 @@ static void MeasureTask(void* pvParam) {
 }
 
 void app_main() {
-	ESP_LOGI(TAG, "esp-bme680");
+    ESP_LOGI(TAG, "esp-bme680");
 
     i2c_config_t i2c_config = {};
 
